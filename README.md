@@ -1,6 +1,6 @@
 # News Analysis
 
-RockyBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
+This application is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
 ![](step1.png)
 
@@ -58,5 +58,5 @@ streamlit run app.py
 
 - main.py: The main Streamlit application script.
 - requirements.txt: A list of required Python packages for the project.
-- faiss_store_openai.pkl: A pickle file to store the FAISS index.
+- faiss_store.pkl: A pickle file to store the FAISS index.
 - .env: Configuration file for storing your OpenAI API key.
