@@ -2,7 +2,7 @@
 
 RockyBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-![](step1.jpg)
+![](step1.png)
 
 ## Features
 
@@ -10,13 +10,13 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 - Process article content through LangChain's UnstructuredURL Loader
 - Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
-![](step2.jpg)
+![](step2.png)
 ## Installation
 
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/
+  git clone https://github.com/ravindra-kanchu/Equity_News
 ```
 2.Navigate to the project directory:
 
@@ -53,7 +53,7 @@ streamlit run main.py
 
 - The FAISS index will be saved in a local file path in pickle format for future use.
 - One can now ask a question and get the answer based on those news articles
-![](step3.jpg)
+![](step3.png)
 ## Project Structure
 
 - main.py: The main Streamlit application script.
