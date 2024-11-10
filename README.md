@@ -37,7 +37,7 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 
 1. Run the Streamlit app by executing:
 ```bash
-streamlit run main.py
+streamlit run app.py
 
 ```
 
